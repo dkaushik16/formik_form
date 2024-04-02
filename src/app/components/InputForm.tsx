@@ -19,14 +19,10 @@ function InputForm() {
        action.resetForm()
     },
 
-    
-})
-
-  
+    })
 
 
-
-  return (
+   return (
     <div className=' w-96 min-h-96 bg-white rounded-md'>
         <form 
           onSubmit={handleSubmit}
@@ -80,9 +76,8 @@ function InputForm() {
 
            <div>
            <button
-            type='button'
+            type='submit'
             className=' rounded-md bg-slate-900 text-white p-2 m-4'
-            onClick={handleSubmit}
             >
              Submit
            </button>
